@@ -1,6 +1,6 @@
 (ns game-theory-calculator.core-test
   (:require [clojure.test :refer :all]
-            [game-theory-calculator.games :as games]))
+            [game-theory-calculator.static-games-of-complete-information :as games]))
 
 (deftest find-pure-nash-test
   (testing "Prisoner's Dilemma"
