@@ -13,8 +13,12 @@ The main technologies used are:
 
 The project is structured as follows:
 *   `src/game_theory_calculator/core.clj`: The main entry point of the application.
-*   `src/game_theory_calculator/prisoner_dilemma.clj`: Contains the core logic for representing and solving games.
-*   `test/game_theory_calculator/core_test.clj`: The main test file.
+*   `src/game_theory_calculator/static-games-of-complete-information.clj`:  Explores Nash Equibrium 
+*   `test/game_theory_calculator/core_test.clj`: 
+###coming soon
+*   `src/game_theory_calculator/dynamic_games_of_complete_information.clj`:   Extensive form games
+*   `src/game_theory_calculator/static_games_of_incomplete_information.clj`:  Bayesian games and Bayesian equilibrium
+*   `src/game_theory_calculator/dynamic-games-of-incomplete-information.clj`: equilibrium requirments 
 
 ## Design and Architecture
 

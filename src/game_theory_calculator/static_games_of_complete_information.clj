@@ -1,6 +1,6 @@
-(ns game-theory-calculator.games)
+(ns game-theory-calculator.static-games-of-complete-information)
 
-;; Example: Representing a simple 2-player normal form game (e.g., Prisoner's Dilemma)
+;; Representing a simple 2-player normal form game (e.g., Prisoner's Dilemma)
 (def prisoner-dilemma
   {:players [:p1 :p2]
    :strategies {:p1 [:cooperate :defect]
